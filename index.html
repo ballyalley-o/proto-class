@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Observer</title>
+  </head>
+  <body>
+    <div class="container mx-20 my-20 text-center py-5">
+      <h1 class="position-relative display-1 py-5">Observer</h1>
+
+        <div class="block">
+            <span class="inline-block w-100"><button class="sub-btn btn btn-success">UTC</button></span>
+
+            <span class="d-inline-block "><button class="unsub-btn btn btn-outline-danger">UNSUBSCRIBE to UTC</button>
+            </span>
+        </div>
+         <div class="block py-2">
+            <span class="inline-block w-100"><button class="sub-s-btn btn btn-success">SECS</button></span>
+
+            <span class="d-inline-block "><button class="unsub-s-btn btn btn-outline-danger">UNSUBSCRIBE to SECS</button>
+            </span>
+        </div>
+
+      <div class="py-2">
+        <hr />
+        <button class="fire-btn btn btn-block btn-danger my-5">GET TIME</button>
+      </div>
+    </div>
+    <div class="container font">
+        <div class="sub-div py-2 display-3"></div>
+        <div class="get-mills py-5 display-1 block"></div>
+        <div class="get-secs py-5 display-1 block"></div>
+    </div>
+    <script src="appes6.js"></script>
+    </script>
+  </body>
+</html>
